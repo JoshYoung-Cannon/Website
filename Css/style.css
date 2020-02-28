@@ -1,0 +1,469 @@
+/** Styling the header and navigation links **/
+
+.body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+}
+
+
+/**Styling navigation bar**/
+
+.col_side {
+    display: none;
+}
+
+.nav_large_devices {
+    display: none;
+}
+
+.nav_col {
+    background: firebrick;
+}
+
+
+li a {
+    text-decoration: none !important;
+    font-size: 1.14em;
+    color: firebrick;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+}
+
+li a:hover {
+    font-size: 1.15em;
+    opacity: 0.7;
+    color: firebrick;
+}
+
+.reg_link {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links_nav {
+    display: inline-block;
+    padding: 10px 5px 5px 7px;
+    -webkit-transform: translate(-10px, 30px);
+    transform: translate(-15px, 30px);
+}
+
+
+/**end of styling of the navigation bar **/
+
+
+/*About section styling */
+.height {
+    min-height: 100vh;
+}
+
+.about-picture {
+    background-image: url(images/dinner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*    background-attachment: fixed;*/
+}
+
+
+#About .bord {
+    background-color: #f5cf6a;
+
+
+}
+
+.col-text {
+    color: #f5cf6a;
+}
+
+.col-colour {
+    background-color: #30c2b9;
+}
+
+.col-colour:hover {
+    background-color: #03b5aa;
+}
+
+
+/**About styling end **/
+
+/** Start of styling of the main section **/
+
+.lounge {
+    background-image: -webkit-gradient(linear,
+        left top, left bottom,
+        from(rgba(0, 0, 0, 0)),
+        to(rgba(0, 0, 0, 100))), url(../images/bar.jpg);
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 100)), url(../images/bar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    font-family: 'ZCOOL XiaoWei', serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: 5px solid firebrick;
+    border-bottom: 5px solid firebrick;
+
+
+
+}
+
+.view_height {
+    min-height: 80vh;
+}
+
+
+
+.restaurant {
+    background-image: -webkit-gradient(linear,
+        left top, left bottom,
+        from(rgba(0, 0, 0, 0)),
+        to(rgba(0, 0, 0, 70))), url(../images/restaurant_1.jpg);
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 70)), url(../images/restaurant_1.jpg);
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'ZCOOL XiaoWei', serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+
+.hotel {
+    background-image: -webkit-gradient(linear,
+        left top, left bottom,
+        from(rgba(0, 0, 0, 0)),
+        to(rgba(0, 0, 0, 70))), url(../images/hotel.jpg);
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 70)), url(../images/hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: 'ZCOOL XiaoWei', serif;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.check_out {
+    background: firebrick;
+    font-family: 'Lora', serif;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.check_out:hover {
+
+    font-size: 1.1em;
+    background: darkred;
+}
+
+/** end of styling of the main section **/
+
+
+
+/** styling the reservation section **/
+.bord {
+    height: 5px;
+    width: 150px;
+    background: white;
+}
+
+.btn-dec {
+    text-decoration: none !important;
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
+}
+
+#reservation {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 1))), url(../images/dinner_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../images/dinner_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
+.text_reseveration {
+    color: darkred;
+}
+
+
+.message {
+    font-size: 1.5em !important;
+}
+
+
+
+/** end of styling the reservation section 
+
+
+/** start of contact styling **/
+
+#contact {
+    background-color: floralwhite;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.line_across {
+    height: 5px;
+    width: 120px;
+    background-color: crimson;
+}
+
+.head_office {
+    color: darkblue !important;
+}
+
+.border_line {
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.contact_info {
+    width: 100%;
+}
+
+/** end of contact styling **/
+
+
+/** Start of styling of the review section **/
+
+#review {
+    background-color: firebrick;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    ;
+
+}
+
+.bord_1 {
+    height: 5px;
+    width: 100px;
+    background: white;
+}
+
+.review_names {
+    font-size: 1.8em !important;
+}
+
+.review_font {
+    font-size: 1.5em !important;
+}
+
+.font {
+    font-size: 2.8em !important;
+}
+
+/** end of review styling **/
+
+
+/**************************************************************STYLING FOR SMALL DEVICES***************************************************************************/
+
+@media (min-width:768px) {
+    .contact_info {
+        width: 75%;
+    }
+}
+
+/************************************************************END OF STYLING FOR SMALL DEVICES********************************************************************/
+
+
+/****************************************************************STYLING FOR MEDIUM TO LARGE DEVICES*********************************************************************/
+
+@media (min-width:992px) {
+
+    /** fixing navigation links and header for larger devices **/
+
+
+
+    .head {
+        background: firebrick;
+    }
+
+    .small_device_link {
+        display: none;
+    }
+
+    .side_bar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /*position: fixed; */
+        z-index: 1;
+
+    }
+
+    .nav_link {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .link_item {
+        display: inline-block;
+        border-right: solid firebrick 2px;
+        text-align: center;
+        padding: 10px;
+
+
+    }
+
+    .link_item:last-child {
+        border-right: none;
+    }
+
+
+    aside a {
+        color: firebrick;
+    }
+
+    aside a:hover {
+        opacity: 0.7;
+        color: firebrick;
+    }
+
+    .col_side {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav_small_devices {
+        display: none !important;
+    }
+
+    .nav_large_devices {
+        display: block;
+    }
+
+    li a {
+        font-size: 1.2em;
+
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+
+    }
+
+    li a:hover {
+        font-size: 1.21em;
+
+    }
+
+    /** end of styling navigation links */
+
+    /* styling main section **/
+    .bliss {
+        overflow: hidden;
+
+        -webkit-transform: skew(-4deg, 0deg);
+
+        transform: skew(-4deg, 0deg);
+
+
+        position: absolute;
+        z-index: 1;
+
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+        -webkit-transform-origin: top left;
+        transform-origin: top left;
+
+
+    }
+
+    .skew_back {
+
+
+        -webkit-transform: skew(4deg, 0deg) !important;
+
+
+        transform: skew(4deg, 0deg) !important;
+
+
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+        -webkit-transform-origin: top left;
+        transform-origin: top left;
+    }
+
+    .lounge {
+        border-right: 5px solid white;
+        border-left: 5px solid white;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    /** end of styling main section 
+
+/** styling the reservation section **/
+    .message {
+        font-size: 2.2em !important;
+    }
+
+    .reservation_text {
+        font-size: none !important;
+    }
+
+}
+
+/******************************************************************END OF STYLING FOR MEDIUM TO LARGER DEVICES***************************************************************/

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="register">
+    <meta name="keywords" content="register">
+    <meta http-equiv="X-UA-compatible" content="IE=egde, chrome = 1">
+    <meta http-equiv="Cache-control" content="no-cache">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!--External style sheet -->
+    <link rel="stylesheet" href="Css/Register.css" type="text/css">
+
+    <!--google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:700|Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:700i|Molle:400i|Niconne" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400i|Libre+Franklin|Markazi+Text|Roboto|Slabo+27px|Source+Serif+Pro" rel="stylesheet">
+
+    <!--    fontawesome icons-->
+    <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <title> Register</title>
+</head>
+
+<body id="body">
+    <section id="register" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-7 mx-auto text-center bg-white">
+                    <h3 class="display-4 text-uppercase text-dark">Register!</h3>
+                    <div class="bord bg-danger mx-auto"></div>
+                </div>
+                <div class="col-12 col-md-10 col-lg-7 py-4 text-center mx-auto">
+                    <p class="lead text-dark para">Already have an account? <span> <a href="#"> Sign in</a></span></p>
+                </div>
+                <div class="col-12 col-md-10 col-lg-7 py-3 mx-auto text-center d-flex justify-content-around">
+                    <div class="bord1 bg-dark my-4"></div>
+                    <p class="text-uppercase lead text-dark create my-1">Create Account Here </p>
+                    <div class="bord1 bg-dark my-4"></div>
+
+                </div>
+
+                <div class="col-12 col-md-9 col-lg-6 py-4 mx-auto">
+                    <form class="form">
+                        <input type="text" id="first_name" class="form-control mt-3" placeholder="First Name">
+                        <p class="lead name_text text-danger">First name invalid!</p>
+
+                        <input type="text" id="username" class="form-control mt-3" placeholder="Username">
+                        <p class="lead user_text text-danger mb-3">Username already exits.</p>
+                        <div class="pass_manip d-flex justify-content-between mt-3">
+                            <input type="password" id="password" class="form-control " placeholder="Password">
+                            <span class="lead pass_type align-self-center"> weak</span>
+                        </div>
+                        <p class="lead pass_text text-danger"> Your password must be greater than 6 characters long containing letter(s), uppercase letter(s) and number(s).</p>
+                        <div class="d-flex justify-content-between mt-3">
+                            <input type="password" id="password_1" class="form-control" placeholder="Confirm password"><i class="fas fa-check-circle pas_cor align-self-center text-success"></i>
+                        </div>
+                        <p class="lead confirm_text text-danger ">Ensure the password field is filled in.</p>
+                        <div class="d-flex justify-content-between mt-3 ">
+                            <input type="email" id="email" class="form-control" placeholder="Email"> <i class="fas fa-times-circle wrong align-self-center text-danger"></i>
+                        </div>
+                        <p class="lead email_text text-danger ">Invalid email address!</p>
+                        <p class="lead email_check text-danger">Email address already exists.</p>
+
+                        <p class="lead para2 text-dark mt-4">By creating an account with Fire and Ice, you agree to abide by our Fire and Ice <span><a href="#">Terms of Service</a></span> and agree to our <span><a href="#"> Privacy Policy.</a></span></p>
+
+                        <p class="lead text-dark para2"><input type="checkbox" id="checkbox">&nbsp; I agree to terms and conditions</p>
+                    </form> <!-- end of form -->
+                    <a href="sub.html" class="btn btn-danger button_create my-2 p-2">Create Account</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="lead form">You need to accept the terms and conditions before creating an account.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exist">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="lead form">You have registered an account with us.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/script_1.js"></script>
+</body></html>

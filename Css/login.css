@@ -1,0 +1,194 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: dimgrey;
+
+}
+
+.min_height {
+    min-height: 100vh;
+
+}
+
+.card-title {
+    font-size: 1.1em !important;
+}
+
+.facebook_button {
+    background: #3B5998;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.1em;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.facebook_button:hover {
+    font-size: 1.11em;
+    color: white !important;
+    background: #3A5998;
+    opacity: 0.9;
+}
+
+.pass_forgot {
+    font-size: 0.9em;
+    -webkit-transition: 0.1s;
+    transition: 0.1s
+}
+
+.pass_forgot:hover {
+    font-size: 0.91em;
+    text-decoration: none;
+
+}
+
+.confirm_text {
+    font-size: 1em;
+    margin-left: 2% !important;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.reg_btn {
+    background: #3A5998;
+    color: white !important;
+    font-size: 1.1em;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+
+}
+
+.reg_btn:hover {
+    font-size: 1.11em;
+    opacity: 0.9;
+}
+
+.privacy_policy {
+    font-size: 1.1em;
+}
+
+.privacy_policy:hover {
+    text-decoration: none;
+    color: beige;
+}
+
+
+
+
+.card-header {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+
+.active {
+    border: 1px solid #d9534f;
+}
+
+.active::-webkit-input-placeholder {
+    color: #d9534f;
+}
+
+
+active:-ms-input-placeholder {
+    color: #d9534f;
+}
+
+
+active::-webkit-input-placeholder {
+    color: #d9534f;
+}
+
+
+active::placeholder {
+    color: #d9534f;
+}
+
+
+@media screen and (min-width:576px) {
+    .card-title {
+        font-size: 1.4em !important;
+    }
+
+    .card-footer {
+        text-align: left;
+    }
+
+    .privacy_policy {
+        font-size: 1.1em;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .card-header {
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card-header {
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+
+    .btn-social {
+        font-size: 1.1em;
+    }
+
+    .facebook_button {
+        background: #3B5998;
+        color: white;
+        font-family: 'Slabo 27px', serif;
+        font-size: 1.3em;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+    }
+
+    .facebook_button:hover {
+        font-size: 1.31em;
+        color: white !important;
+        background: #3A5998;
+        opacity: 0.9;
+    }
+
+    .pass_forgot {
+        font-size: 1em;
+        -webkit-transition: 0.1s;
+        transition: 0.1s
+    }
+
+    .pass_forgot:hover {
+        font-size: 1.02em;
+        text-decoration: none;
+
+    }
+
+    .reg_btn {
+        background: #3A5998;
+        color: white !important;
+        font-size: 1.2em;
+        -webkit-transition: 0.1s;
+        transition: 0.1s
+    }
+
+    .reg_btn:hover {
+        font-size: 1.21em;
+        opacity: 0.9;
+    }
+
+    .privacy_policy:hover {
+        text-decoration: none;
+        color: beige;
+    }
+
+}
