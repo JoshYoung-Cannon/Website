@@ -15,15 +15,18 @@ let getAllItems = () => {
             let img = document.createElement("img");
             img.class = " card-img-top";
             img.alt="robot";
+            console.log(value.imageURL);
             img.src=value.imageURL;
             card.appendChild(img);
             let cardBody = document.createElement("div");
             cardBody.class="card-body";
             let itemName = document.createElement("h3");
             itemName.class="card-title text-uppercase title pt-4 mb-3";
+            console.log(value.name);
             itemName.innerText = value.name;
             cardBody.appendChild(itemName);
             let price = document.createElement("p");
+            console.log(value.price);
             price.innerText="Price: £" + value.price;
             cardBody.appendChild(price);
             card.appendChild(cardBody);
