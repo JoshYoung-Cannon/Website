@@ -13,10 +13,11 @@ let getAllItems = () => {
             let card = document.createElement("div");
             card.class = "card";
             let img = document.createElement("img");
+            img.style.width = "100%";
             img.class = " card-img-top";
             img.alt="robot";
-            console.log(value.imageURL);
-            img.src=value.imageURL;
+            console.log(value);
+            img.src=value.imageUrl;
             card.appendChild(img);
             let cardBody = document.createElement("div");
             cardBody.class="card-body";
@@ -37,6 +38,9 @@ let getAllItems = () => {
             updateButton.type="button";
             delButton.type="button";
             addToButton.type="button";
+            updateButton.innerText="Update";
+            delButton.innerText="Delete";
+            addToButton.innerText="Add To Order";
             updateButton.class="btn btn-danger  btn-lg my-4 d-block mx-auto";
             delButton.class="btn btn-danger  btn-lg my-4 d-block mx-auto";
             addToButton.class="btn btn-danger  btn-lg my-4 d-block mx-auto";
