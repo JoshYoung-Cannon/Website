@@ -59,7 +59,7 @@ li a:hover {
 }
 
 .about-picture {
-    background-image: url(images/dinner.jpg);
+    background-image: url(../images/picture.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
